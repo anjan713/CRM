@@ -1,0 +1,25 @@
+.dashboard {
+  width: auto;
+
+  .widgets,
+  .below-widget {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .below-widget {
+    .left-column,
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .right-column {
+      flex: 1;
+    }
+    .left-column {
+      flex: 2;
+    }
+  }
+}

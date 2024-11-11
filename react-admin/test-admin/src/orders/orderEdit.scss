@@ -1,0 +1,19 @@
+.itenary {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+
+  .title {
+    text-align: center;
+    flex: 1;
+    font-weight: 500;
+    color: gray;
+  }
+  .datagrid {
+    flex: 3;
+  }
+  .btn {
+    flex: 1;
+  }
+}
