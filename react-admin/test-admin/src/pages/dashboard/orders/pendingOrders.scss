@@ -1,0 +1,51 @@
+.pending-orders {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: gray;
+  background-color: white;
+
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    padding: 20px;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    &:hover {
+      background-color: rgb(238, 238, 238);
+    }
+  }
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: black;
+    font-weight: 400;
+    .user-details {
+      display: flex;
+      gap: 20px;
+      img {
+        max-height: 40px;
+        border-radius: 50%;
+      }
+      .order-details {
+        display: flex;
+        flex-direction: column;
+
+        .user-info {
+          font-size: 14px;
+          color: gray;
+        }
+      }
+    }
+    .amount {
+      font-size: 18px;
+    }
+  }
+}

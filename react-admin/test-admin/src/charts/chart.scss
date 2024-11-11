@@ -1,0 +1,26 @@
+.chart {
+  flex: 1;
+  padding: 10px;
+  color: gray;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+  .header {
+    display: flex;
+    padding: 10px;
+    .title {
+      flex: 2;
+      font-size: 24px;
+      font-weight: 500;
+      color: black;
+    }
+    .monthSelect {
+      flex: 1;
+    }
+  }
+
+  .chartGrid {
+    stroke: rgb(218, 216, 216);
+  }
+}
